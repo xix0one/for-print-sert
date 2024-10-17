@@ -3,10 +3,12 @@
     padding: 0;
 }
 
+/* исправить */
 html {
     height: 3508;
     width: 2480;
 }
+/* ------------ */
 
 div:first-child {
     margin-top: 5px;
@@ -25,7 +27,6 @@ div:first-child {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: bold;
-    
 }
 
 span {
