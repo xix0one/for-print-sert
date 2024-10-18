@@ -20,7 +20,7 @@ htmlNames = soup.find_all('span', class_='default')
 count = 0
 
 def add(count):
-     with open(f'print-it/index_updated{count}.html', 'w', encoding='utf-8') as file:
+     with open(f'index_updated{count}.html', 'w', encoding='utf-8') as file:
         file.write(str(soup))
 
 for n in range(len(names)):

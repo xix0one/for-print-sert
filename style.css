@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-/* исправить */
-html {
-    height: 3508;
-    width: 2480;
-}
-/* ------------ */
-
 div:first-child {
     margin-top: 5px;
 }
@@ -21,7 +14,6 @@ div:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 
     /* стили текста */
     font-family: 'Times New Roman', Times, serif;
@@ -32,5 +24,5 @@ div:first-child {
 span {
     /*  позиционирование текста напрямую */
     position: relative; 
-    top: 10px;
+    top: 14px;
 }
