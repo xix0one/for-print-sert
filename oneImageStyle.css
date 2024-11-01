@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-top: 3px;
+}
+
+/*  позиционирование всего текста */
+span {
+    position: relative; 
+    top: 30px;
+}
+
+/* Пробелы между страницами для печати */
+.space {
+    height: 1px;
+}
+
+/* Фамилия Имя Отчество */
+.default {
+    color: darkslategray;
+    font-weight: 600;
+}
+
+.name {
+    width: 800px;
+    height: 1125px;
+
+    /* здесь прописывается путь к шаблону */
+    background: url(shablon.png) center / 800px 1125px no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* стили текста */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+/* Должность */
+.address {
+    font-size: 24px;
+}
+
+/* Текст благодарности */
+.text {
+    text-align: center;
+    position: relative; 
+    bottom: 0;
+    top: 50px;
+    width: 50%;
+    font-size: 24px;
+}
+
+/* Boss */
+.manager {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    font-size: 24px;
+
+    position: relative;
+    top: 180px;
+}

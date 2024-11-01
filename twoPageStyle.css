@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-top: 5px;
+}
+
+/* Пробелы между страницами для печати */
+.space {
+    height: 3px;
+}
+
+.name {
+    width: 800px;
+    height: 550px;
+
+    /* здесь прописывается путь к шаблону */
+    background: url(sert01.jpg) center / 800px 550px no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* стили текста */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*  позиционирование текста напрямую */
+span {
+    position: relative; 
+    top: 14px;
+}
